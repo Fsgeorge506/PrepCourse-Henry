@@ -1,1 +1,1 @@
-Prueba de como clonar un repositorio de GitHub a mi computadora
+Prueba 2 de como clonar un repositorio desde Git-hub a mi PC
