@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primer Sitio Web</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="header__nav-lista">
+          <li class="header__nav-ítem"><a href="#servivios">Servicios</a></li>
+          <li class="header__nav-ítem">
+            <a href="#quien-soy">Quién Soy</a>
+          </li>
+          <li class="header__nav-ítem"><a href="#proyectos">Proyectos</a></li>
+          <li class="header__nav-ítem"><a href="#blog">Blog</a></li>
+          <li class="header__nav-ítem"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <section id="servicios">
+        <h2>Servicios</h2>
+        <p>descripcion servicios: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur aut esse eos fugit veritatis laboriosam soluta adipisci, aliquid deserunt reprehenderit?</p>
+      </section>
+      <hr />
+      <section id="quien-soy">
+        <h2 >Quién Soy</h2>
+        <p>Biografia corta: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati neque eius placeat suscipit culpa vitae, sequi repellat dicta nesciunt ullam?</p>
+      </section>
+      <hr />
+      <section id="proyectos" class="proyectos">
+        <h2 class="proyectos_titulo">Proyectos</h2>
+        <p>Proyectos ejecutados importantes: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat aperiam aliquid ad numquam? Ex dolorem nostrum vero, ea rerum minus.</p>
+        <div class="proyectos__grid">
+
+          <article class="card-proyecto">
+            <img src="img/card_proyecto_ecommerce.png" alt="Vista previa del proyecto E-commerce" class="card-proyecto__imagen">
+            <div class="card-proyecto__contenido">
+              <h3 class="card-proyecto__titulo">Tienda Virtual E-commerce</h3>
+              <p class="card-proyecto__descripcion">
+                Plataforma de ventas con carrito, pasarela de pagos y panel de administración. Desarrollada con React, Node.js y MongoDB.
+              </p>
+              <a href="#" class="card-proyecto__enlace" target="_blank">Ver Proyecto</a>
+            </div>
+          </article>
+
+          <article class="card-proyecto">
+            <img src="img/card_proyecto_dashboard.png" alt="Vista previa del Dashboard de Analytics" class="card-proyecto__imagen">
+            <div class="card-proyecto__contenido">
+              <h3 class="card-proyecto__titulo">Dashboard de Analytics</h3>
+              <p class="card-proyecto__descripcion">
+                Interfaz intuitiva para visualizar datos en tiempo real. Implementado con Vue.js, Chart.js y Firebase Auth.
+              </p>
+              <a href="#" class="card-proyecto__enlace" target="_blank">Ver Proyecto</a>
+            </div>
+          </article>
+      </section>
+        <hr />
+        <section id="blog">
+          <h2>Blog</h2>
+          <p>Publicaciones sobre articulos relevantes: Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas inventore vel magni quia accusantium architecto ipsam eius accusamus earum!</p>
+        </section>
+        <hr />
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Informacion de contacto: Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam amet modi iste eaque delectus, inventore sequi ea sint laborum quam.</p>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <P>Derechos de autor</P>
+      <span>span1</span><span>span2</span><span>span3</span>
+
+    </footer>
+  </body>
+</html>
